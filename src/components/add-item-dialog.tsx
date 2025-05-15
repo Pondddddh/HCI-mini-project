@@ -40,7 +40,7 @@ export default function AddItemDialog({ open, onOpenChange, onAdd, defaultLocati
       id: "", // Will be set by parent component
       name,
       category: category as "dairy" | "produce" | "meat" | "beverage" | "other",
-      location: location as "fridge" | "freezer",
+      location: location as "fridge" | "freezer" ,
       shelf,
       quantity,
       addedDate: new Date().toISOString(),
