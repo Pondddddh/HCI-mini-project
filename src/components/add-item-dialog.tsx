@@ -119,7 +119,7 @@ export default function AddItemDialog({ open, onOpenChange, onAdd, defaultLocati
 
               <div className="grid grid-cols-4 items-center gap-4">
                 <Label className="text-right">Location</Label>
-                <RadioGroup value={location} onValueChange={setLocation} className="col-span-3 flex space-x-4">
+                <RadioGroup value={location} className="col-span-3 flex space-x-4">
                   <div className="flex items-center space-x-2">
                     <RadioGroupItem value="fridge" id="fridge" />
                     <Label htmlFor="fridge">Refrigerator</Label>
