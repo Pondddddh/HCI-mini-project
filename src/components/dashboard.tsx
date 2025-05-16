@@ -169,6 +169,12 @@ export default function Dashboard() {
         onConsume={consumeItem}
       />
 
+      <RecipeSuggestion 
+        onOpenChange={setShowRecipeSuggestion} 
+        open={showRecipeSuggestion}
+        items={items}
+        />
+
        {/* Buttons for menu suggestion and N'Tao */}
       <div className="flex gap-4">
         <Button
